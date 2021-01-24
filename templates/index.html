@@ -1,0 +1,164 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+
+	<title>Mealify</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" type="text/css" href="static/style.css" />
+
+</head>
+
+<body>
+	<!-- Navigation Bar -->
+	<div class ="sidebar">
+
+		<div class="nav_title">
+			<h1>Mealify</h1>
+		</div>
+		<a href="#profile"><img src="static/face.png"></a>
+		<a href="/"><img src="static/calendar_today.png"></a>
+		<a href="/recipe_finder"><img src="static/fastfood.png"></a>
+		<a href="#settings"><img src="static/settings.png"></a>
+		
+	</div>
+
+	<!-- Main -->
+	<main>
+		<form class="meal_planner" id="meal_planner" action ="#" method="post">
+			<h1 class="meal_planner_title">Meal Planner</h1>
+
+
+
+
+
+			<!-- budget slider -->
+			<div class="budge_slider_title">
+				<img src="static/attach_money.png">
+				<h1>Budget per week</h1>
+			</div>
+			<div class="budget_numbers">
+				<h1 class ="budget_0">0</h1>
+				<h1 class= "budget_500">500</h1>
+			</div>
+			<div class="budget_slider">
+				<input type="range" min="1" max="500" value="250" class="slider" name="budgeRange" id="budgeRange">
+				<p>Value:<span id="budget_value_display"></span></p>
+			</div>
+
+			<!-- calorie slider -->
+			<div class="calories_slider_title">
+				<img src="static/fastfood2.png">
+				<h1>Calories per day</h1>
+			</div>
+			<div class="calorie_numbers">
+				<h1 class ="calorie_0">1000</h1>
+				<h1 class= "calorie_500">3000</h1>
+			</div>
+			<div class="calorie_slider">
+				<input type="range" min="1000" max="3000" value="2000" class="slider" name="calorieRange" id="calorieRange">
+				<p>Value:<span id="calorie_value_display"></span></p>
+			</div>
+
+			<!-- button -->
+			<button type="submit" class = "meal_planner_search_btn">Search</button>
+
+
+		</section>
+
+		<!-- Sunday -->
+		<section class="Week">
+
+			<h1 class="date_title">Sunday</h1>
+			<h1 class="date_times">Breakfast</h1>
+			<h1 class="breakfast_food">{{ sun_b }}</h1>
+			<h1 class="date_times">Lunch</h1>
+			<h1 class="lunch_food">{{ sun_l }}</h1>
+			<h1 class="date_times">Dinner</h1>
+			<h1 class="dinner_food">{{ sun_d }}</h1>
+
+		</section>
+
+		<!-- Monday -->
+		<section class="Week">
+
+			<h1 class="date_title">Monday</h1>
+			<h1 class="date_times">Breakfast</h1>
+			<h1 class="breakfast_food">{{ mon_b }}</h1>
+			<h1 class="date_times">Lunch</h1>
+			<h1 class="lunch_food">{{ mon_l }}</h1>
+			<h1 class="date_times">Dinner</h1>
+			<h1 class="dinner_food">{{ mon_d }}</h1>
+
+		</section>
+
+		<!-- Tuesday -->
+		<section class="Week">
+
+			<h1 class="date_title">Tuesday</h1>
+			<h1 class="date_times">Breakfast</h1>
+			<h1 class="breakfast_food">{{ tues_b }}</h1>
+			<h1 class="date_times">Lunch</h1>
+			<h1 class="lunch_food">{{ tues_l }}</h1>
+			<h1 class="date_times">Dinner</h1>
+			<h1 class="dinner_food">{{ tues_d }}</h1>
+
+		</section>
+
+
+		<!-- Wednesday -->
+		<section class="Week">
+
+			<h1 class="date_title">Wednesday</h1>
+			<h1 class="date_times">Breakfast</h1>
+			<h1 class="breakfast_food">{{ wed_b }}</h1>
+			<h1 class="date_times">Lunch</h1>
+			<h1 class="lunch_food">{{ wed_l }}</h1>
+			<h1 class="date_times">Dinner</h1>
+			<h1 class="dinner_food">{{ wed_d }}</h1>
+
+		</section>
+
+		<!-- Thursday -->
+		<section class="Week">
+
+			<h1 class="date_title">Thursday</h1>
+			<h1 class="date_times">Breakfast</h1>
+			<h1 class="breakfast_food">{{ thurs_b }}</h1>
+			<h1 class="date_times">Lunch</h1>
+			<h1 class="lunch_food">{{ thurs_l }}</h1>
+			<h1 class="date_times">Dinner</h1>
+			<h1 class="dinner_food">{{ thurs_d }}</h1>
+
+		</section>
+
+		<!-- Friday -->
+		<section class="Week">
+
+			<h1 class="date_title">Friday</h1>
+			<h1 class="date_times">Breakfast</h1>
+			<h1 class="breakfast_food">{{ fri_b }}</h1>
+			<h1 class="date_times">Lunch</h1>
+			<h1 class="lunch_food">{{ fri_l }}</h1>
+			<h1 class="date_times">Dinner</h1>
+			<h1 class="dinner_food">{{ fri_d }}</h1>
+
+		</section>
+
+		<!-- Saturday -->
+		<section class="Week">
+
+			<h1 class="date_title">Saturday</h1>
+			<h1 class="date_times">Breakfast</h1>
+			<h1 class="breakfast_food">{{ sat_b }}</h1>
+			<h1 class="date_times">Lunch</h1>
+			<h1 class="lunch_food">{{ sat_l }}</h1>
+			<h1 class="date_times">Dinner</h1>
+			<h1 class="dinner_food">{{ sat_d }}</h1>
+
+		</section>
+
+	</main>
+	<script src="static/main.js"></script>
+</body>
+</html>
