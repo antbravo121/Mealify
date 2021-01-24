@@ -1,0 +1,57 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+
+	<title>Mealify</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" type="text/css" href="static/recipestyle.css" />
+
+</head>
+
+<body>
+	<!-- Navigation Bar -->
+	<div class ="sidebar">
+
+		<div class="nav_title">
+			<h1>Mealify</h1>
+		</div>
+		<a href="#profile"><img src="static/face.png"></a>
+		<a href="/"><img src="static/calendar_today.png"></a>
+		<a href="/recipe_finder"><img src="static/fastfood.png"></a>
+		<a href="#settings"><img src="static/settings.png"></a>
+		
+	</div>
+
+	<!-- Main -->
+	<main>
+		<section class="recipe_finder_header" id="recipe_finder_header">
+
+			<h1>Recipe Finder</h1>
+
+			<h2>Enter the ingredients that you have</h2>
+			<form actions="#" method="post">
+				<input type="text" placeholder="Ex: strawberrys,cheese,lettuce" name="ingredients_value" class="recipe_text_input"/>
+				<button type="submit" class = "recipe_finder_btn"><img src="static/search.png"></button>
+			</form>
+			
+		</section>
+
+		<div class="recipe_section" style="text-align: center; background-color: gray;">
+			{% for recipe in recipes %}
+				<h1 style="
+				font-family: Trebuchet MS;
+				font-style: normal;
+				font-weight: lighter;
+				font-size: 30px;
+				padding: 10px 0px 5px 0px;
+				background-color: orange;
+				">{{ recipe.title }}</h1>
+				<img src="{{ recipe.image }}">
+			{% endfor %}
+		</div>
+
+	</main>
+
+</body>
+</html>
