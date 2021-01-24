@@ -1,0 +1,97 @@
+.sidebar {
+	height: 100%;
+	width: 150px;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: #5B38E7;
+	overflow-x: hidden;
+	padding-top: 16px;
+}
+.nav_title {
+	padding: 15px 5px 100px 20px;
+	font-family: Trebuchet MS;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 15px;
+	color: white;
+}
+.sidebar a {
+	padding: 6px 0px 15px 40px;
+	display: block;
+
+}
+
+/* Style links on mouse-over */
+.sidebar a:hover {
+	background-color: orange;
+
+}
+
+/* Style the main content */
+main {
+	margin-left: 150px; /* Same as the width of the sidenav */
+	padding: 0px 10px;
+}
+.recipe_finder_header {
+	text-align: center;
+}
+.recipe_finder_header h1 {
+	font-family: Trebuchet MS;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 65px;
+	color: #5B38E7;
+}
+.recipe_finder_header h2 {
+	font-family: Trebuchet MS;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 20px;
+	color: black;
+}
+.recipe_text_input {
+	width: 50%;
+	height: 30px;
+	font-family: Trebuchet MS;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 20px;
+	color: black;
+	border-radius: 20px;
+	border-color: #d3d3d3;
+
+}
+
+.recipe_text_input:focus {
+	outline-width: 0;
+}
+.recipe_finder_btn {
+	border: none;
+	background-color: white;
+	cursor: pointer;
+	width: 20px;
+	height: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
