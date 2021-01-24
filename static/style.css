@@ -1,0 +1,204 @@
+.sidebar {
+	height: 100%;
+	width: 150px;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: #5B38E7;
+	overflow-x: hidden;
+	padding-top: 16px;
+}
+.nav_title {
+	padding: 15px 5px 100px 20px;
+	font-family: Trebuchet MS;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 15px;
+	color: white;
+}
+.sidebar a {
+	padding: 6px 0px 15px 40px;
+	display: block;
+
+}
+
+/* Style links on mouse-over */
+.sidebar a:hover {
+	background-color: orange;
+
+}
+
+/* Style the main content */
+main {
+	margin-left: 150px; /* Same as the width of the sidenav */
+	padding: 0px 10px;
+}
+
+.meal_planner{
+	text-align: center;
+}
+
+.meal_planner_title{
+	color: #5B38E7;
+	font-family: Trebuchet MS;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 65px;
+}
+.budge_slider_title{
+	display: flex;
+	padding-left: 115px;
+}
+.budge_slider_title img{
+	padding-top: 12px;
+	width: 40px;
+	height: 40px;
+}
+
+.budge_slider_title h1{
+	font-family: Trebuchet MS;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 24px;
+}
+
+.budget_numbers {
+	display: flex;
+	font-family: Trebuchet MS;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 10px;
+}
+.budget_0 {
+	padding: 0px 0px 0px 115px;
+}
+.budget_500 {
+	padding: 0px 0px 0px 1000px;
+}
+
+.budget_slider{
+	width: 100%;
+}
+.slider {
+	-webkit-appearance: none;
+    width: 80%;
+    height: 15px;
+    border-radius: 5px;  
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%; 
+    background: #5B38E7;
+    cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #5B38E7;
+    cursor: pointer;
+}
+
+.calories_slider_title{
+	display: flex;
+	padding-left: 115px;
+}
+
+.calories_slider_title img{
+	padding-top: 12px;
+	width: 40px;
+	height: 40px;
+}
+
+.calories_slider_title h1{
+	font-family: Trebuchet MS;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 24px;
+}
+.calorie_numbers {
+	display: flex;
+	font-family: Trebuchet MS;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 10px;
+}
+.calorie_0 {
+	padding: 0px 0px 0px 115px;
+}
+.calorie_500 {
+	padding: 0px 0px 0px 1000px;
+}
+.meal_planner_search_btn {
+	margin: 50px 0px 0px 0px;
+	background-color: orange;
+	padding: 10px 40px 10px 40px;
+	cursor: pointer;
+	font-family: Trebuchet MS;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 20px;
+	border: none;
+
+}
+
+.meal_planner_search_btn:hover {
+	background-color: #5B38E7;
+	color: white;
+}
+
+.Week{
+	background-color: gray;
+	margin: 0px 20px 0px 20px;
+}
+
+.date_title {
+	background-color: orange;
+	padding: 10px 0px 10px 10px;
+	font-family: Trebuchet MS;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 30px;
+}
+.date_times{
+	padding: 10px 0px 10px 20px;
+	font-family: Trebuchet MS;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 30px;
+}
+.breakfast_food {
+	padding: 5px 0px 10px 40px;
+	font-family: Trebuchet MS;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 20px;
+}
+.lunch_food {
+	padding: 5px 0px 10px 40px;
+	font-family: Trebuchet MS;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 20px;
+}
+.dinner_food {
+	padding: 5px 0px 10px 40px;
+	font-family: Trebuchet MS;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 20px;
+}
+
+
+
+
